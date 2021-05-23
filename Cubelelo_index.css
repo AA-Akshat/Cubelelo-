@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "San Francisco", arial, sans-serif;
+  }
+  
+
+
+  .logod{
+    background:black;
+  }
+
+  section{
+    margin: 30px;
+  }
+
+body h2{
+  text-align: center;
+  margin-top: 100px ;
+  margin-bottom: 40px;
+  color: black;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+
+
+.carousel-cell {
+  width: 20%;
+  margin-top: 100px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.carousel-cell img{
+  width: 100%;
+}
+
+
+.cubepic{
+  width: 350px;
+  height: 350px;
+}
+.cubepic2{
+  width: 300px;
+  height: 350px;
+}
+.seasy,
+.smedium,
+.shard{
+  display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body h3{
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  color: black;
+  font-weight: 600;
+}
+h5{
+  font-size: 17px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: 550;
+}
+.checked{
+  color: orange;
+}
+.stars{
+  padding-bottom: 10px;
+}
+.add-cart-item{
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+}
+.add-cart-item:hover{
+  transition: 0.5s;
+  background-color:black;
+  color:white;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.store{
+  padding: 10px ;
+}
+.store h4{
+  padding: 5px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.store p{
+  padding: 10px;
+}
+
+.features ul{
+list-style-type: none;
+padding: 4px;
+}
+.features p{
+  padding: 5px;
+}
+
+.useful-links h4{
+  padding: 3px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.useful-links ul{
+  list-style-type: none;
+  padding: 10px;
+}
+
+.useful-links a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.useful-links a:hover{
+  color: orange;
+  transition: 1s;
+} 
+.useful-links li{
+  padding: 5px;
+}
+.Contact-me h4{
+  padding: 3px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.Contact-me ul{
+  list-style-type: none;
+  padding: 10px;
+}
+.Contact-me a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.Contact-me a:hover{
+  transition: 1s;
+  color: orange;
+}
+.Contact-me li{
+  padding: 5px;
+}
+
+
+@media only screen and (max-width: 576px)
+{
+  nav{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    padding: 5px;
+    background-color: #333;
+    font-size: 14px;
+  }
+  nav .menu-btn1,
+  nav .menu-btn2{
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+nav .menu-btn1:hover,
+nav .menu-btn2:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 1s;
+  }
+
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-repeat: no-repeat;
+    padding: 10px;
+  }
+
+  .announcement{
+    background: #333;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 450;
+    text-align: center;
+    font-size: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 576px) 
+{
+  nav {
+    display: flex;
+    background-color: #333;
+    align-items: center;
+    background-attachment: fixed;
+  }
+
+nav .menu-btn1 {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+nav .menu-btn2 {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    right: 0%;
+  }
+  
+
+nav .menu-btn1:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  nav .menu-btn2:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-repeat: no-repeat;
+    padding: 10px;
+  }
+
+  .announcement{
+    background: #333;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 550;
+    text-align: center;
+    font-size: 15px;
+  }
+
+}
